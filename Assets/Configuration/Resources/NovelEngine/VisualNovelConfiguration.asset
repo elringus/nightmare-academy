@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7072b5286a037794ea502c5d2594201b, type: 3}
+  m_Name: VisualNovelConfiguration
+  m_EditorClassIdentifier: 
+  initializeOnApplicationLoad: 1
+  engineInitializationUI: {fileID: 114697245602473954, guid: 4c50c16ce50037944a540ca5b289de39,
+    type: 2}
+  mainMenuUI: {fileID: 114721313819919458, guid: 4b121aa1be1b7e04480b452c595ff17a,
+    type: 2}
+  providersConfiguration:
+    LocalRootPath: Resources
+    GoogleDriveRootPath: NightmareAcademy/Resources
+    GoogleDriveRequestLimit: 2
+    GoogleDriveCachingPolicy: 0
+  scriptConfiguration:
+    ProviderType: 2
+    ResourcesPathPrefix: Scripts
+    EnableNavigator: 1
+    ShowNavigatorOnInit: 0
+    NavigatorPrefab: {fileID: 114569714914702832, guid: 735d6aa767879aa469134858c5b2f0a7,
+      type: 2}
+    NavigatorToggleKey: 110
+    NavigatorTouchToggle: 1
+    NavigatorSortOrder: 900
+  localizationConfiguration:
+    ProviderType: 2
+    ResourcesPathPrefix: Localization
+    DefaultLocale: ru
+  textConfiguration:
+    ProviderType: 2
+    ResourcesPathPrefix: Text
+  inputConfiguration:
+    ContinueKeys: 0d0000000f0100005e010000
+    SkipKeys: 320100005f010000
+    TouchContinueCooldown: 0.1
+    SpawnEventSystem: 1
+  playerConfiguration:
+    SkipTimeScale: 10
+  saveConfiguration:
+    SaveFolderName: NovelSaveData
+    LoadingUIPrefab: {fileID: 114896199744711890, guid: 53aad00e5cf184e458adb001c550518a,
+      type: 2}
+    LoadingUISortOrder: 999
+    SaveSlotLimit: 99
+    QuickSaveSlotLimit: 9
+    SaveLoadUIPrefab: {fileID: 114779438678705384, guid: 8d53726b3d08433479398f02b4780e7f,
+      type: 2}
+    SaveLoadUISortOrder: 10
+  settingsConfiguration:
+    SaveFolderName: NovelSaveData/Settings
+    DefaultSlotId: settings
+    UIPrefab: {fileID: 114903424020297218, guid: 65c37f59e9b266f468dd5381fdc03fc3,
+      type: 2}
+    UISortOrder: 10
+  audioConfiguration:
+    ProviderType: 2
+    ResourcesPathPrefix: Audio
+    AudioMixer: {fileID: 24100000, guid: a8d2f798fc082fd408df1fe76f6182f5, type: 2}
+    MasterVolumeHandleName: Master Volume
+    BgmGroupPath: Master/BGM
+    BgmVolumeHandleName: BGM Volume
+    SfxGroupPath: Master/SFX
+    SfxVolumeHandleName: SFX Volume
+  printerConfiguration:
+    ProviderType: 0
+    ResourcesPathPrefix: NovelEngine/TextPrinters
+    DefaultPrinterName: Dialogue
+    MaxPrintDelay: 0.06
+  choiceConfiguration:
+    ProviderType: 0
+    ResourcesPathPrefix: NovelEngine/ChoiceHandlers
+    DefaultHandlerName: ButtonList
+  cameraConfiguration:
+    ReferenceResolution: {x: 1920, y: 1080}
+    ThumbnailResolution: {x: 240, y: 140}
+    InitialPosition: {x: 0, y: 0, z: -10}
+    BackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+  backgroundsConfiguration:
+    ProviderType: 2
+    SceneOrigin: {x: 0.5, y: 0}
+    Pivot: {x: 0.5, y: 0.5}
+    PixelsPerUnit: 100
+    ResourcesPathPrefix: Backgrounds
+    MainName: MainBackground
+    ZOffset: 100
+  charactersConfiguration:
+    ProviderType: 2
+    SceneOrigin: {x: 0.5, y: 0}
+    Pivot: {x: 0.5, y: 0}
+    PixelsPerUnit: 100
+    ResourcesPathPrefix: Characters
+    Implementation: 0
+    InitialLookDirection: 1
+    AutoArrangeOnAdd: 1
