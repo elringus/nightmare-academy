@@ -16,13 +16,14 @@ MonoBehaviour:
     type: 2}
   mainMenuUI: {fileID: 114721313819919458, guid: 4b121aa1be1b7e04480b452c595ff17a,
     type: 2}
+  startGameScript: Script001
   providersConfiguration:
     LocalRootPath: Resources
     GoogleDriveRootPath: NightmareAcademy/Resources
     GoogleDriveRequestLimit: 2
     GoogleDriveCachingPolicy: 0
   scriptConfiguration:
-    ProviderType: 2
+    ProviderType: 0
     ResourcesPathPrefix: Scripts
     EnableNavigator: 1
     ShowNavigatorOnInit: 0
@@ -32,11 +33,11 @@ MonoBehaviour:
     NavigatorTouchToggle: 1
     NavigatorSortOrder: 900
   localizationConfiguration:
-    ProviderType: 2
+    ProviderType: 0
     ResourcesPathPrefix: Localization
     DefaultLocale: ru
   textConfiguration:
-    ProviderType: 2
+    ProviderType: 0
     ResourcesPathPrefix: Text
   inputConfiguration:
     ContinueKeys: 0d0000000f0100005e010000
@@ -62,7 +63,7 @@ MonoBehaviour:
       type: 2}
     UISortOrder: 10
   audioConfiguration:
-    ProviderType: 2
+    ProviderType: 0
     ResourcesPathPrefix: Audio
     AudioMixer: {fileID: 24100000, guid: a8d2f798fc082fd408df1fe76f6182f5, type: 2}
     MasterVolumeHandleName: Master Volume
@@ -85,7 +86,7 @@ MonoBehaviour:
     InitialPosition: {x: 0, y: 0, z: -10}
     BackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   backgroundsConfiguration:
-    ProviderType: 2
+    ProviderType: 0
     SceneOrigin: {x: 0.5, y: 0}
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
@@ -93,7 +94,7 @@ MonoBehaviour:
     MainName: MainBackground
     ZOffset: 100
   charactersConfiguration:
-    ProviderType: 2
+    ProviderType: 0
     SceneOrigin: {x: 0.5, y: 0}
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
