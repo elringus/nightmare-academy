@@ -3,15 +3,16 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1eca7773dbc7f5b47878b382f321f62e, type: 3}
   m_Name: GoogleDriveSettings
   m_EditorClassIdentifier: 
-  authCredentials:
+  genericClientCredentials:
     client_id: 908841638875-bt366adom88hbeff9getshad5kd71pr5.apps.googleusercontent.com
     project_id: third-zephyr-184511
     auth_uri: https://accounts.google.com/o/oauth2/auth
@@ -21,7 +22,15 @@ MonoBehaviour:
     redirect_uris:
     - http://localhost
     - http://elringus.me/static/NovelEngine/
-  accessScope: https://www.googleapis.com/auth/drive
+  uriSchemeClientCredentials:
+    cliendId: 908841638875-m4dhqanrc61q1coabpiaurp8m9uutjgl.apps.googleusercontent.com
+    reversedCliendId: com.googleusercontent.apps.908841638875-m4dhqanrc61q1coabpiaurp8m9uutjgl
+    plistVersion: 1
+    bundleId: elringus.me
+  accessScopes:
+  - https://www.googleapis.com/auth/drive
+  - https://www.googleapis.com/auth/drive.appdata
+  loopbackUri: http://localhost
   loopbackResponseHtml: <html><h1>Please return to the app.</h1></html>
   accessTokenPrefsKey: GoogleDriveAccessToken
   refreshTokenPrefsKey: GoogleDriveRefreshToken
