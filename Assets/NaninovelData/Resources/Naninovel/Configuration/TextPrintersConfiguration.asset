@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TextPrintersConfiguration
   m_EditorClassIdentifier: 
   DefaultEasing: 0
-  DefaulPrinterId: Dialogue
+  DefaulPrinterId: NDialogue
   MaxPrintDelay: 0.06
   DefaultMetadata:
     Implementation: Naninovel.UITextPrinter
@@ -27,6 +27,7 @@ MonoBehaviour:
     - Fullscreen
     - Wide
     - Chat
+    - NDialogue
     metas:
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
@@ -48,3 +49,8 @@ MonoBehaviour:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
       guid: fb7999a2-f10d-4948-a830-750ebb059cbd
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 30a46398-1c81-4ea5-a9b2-dea9b735d883

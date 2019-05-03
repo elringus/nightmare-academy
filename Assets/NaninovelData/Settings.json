@@ -9,6 +9,6 @@
         "{\n    \"SelectedLocale\": \"ru-RU\"\n}",
         "{\n    \"PrintSpeed\": 0.5\n}",
         "{\n    \"MasterVolume\": 1.0,\n    \"BgmVolume\": 1.0,\n    \"SfxVolume\": 1.0,\n    \"VoiceVolume\": 1.0\n}",
-        "{\n    \"SkipMode\": 0\n}"
+        "{\n    \"SkipMode\": 1\n}"
     ]
 }
