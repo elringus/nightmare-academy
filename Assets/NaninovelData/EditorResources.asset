@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EditorResources
   m_EditorClassIdentifier: 
   resourceCategories:
-  - Id: TextPrinters/30a46398-1c81-4ea5-a9b2-dea9b735d883
+  - Id: TextPrinters/cf8b6b2e-8c58-4453-b469-d0dc32276396
     Resources:
     - Name: NDialogue
       PathPrefix: TextPrinters

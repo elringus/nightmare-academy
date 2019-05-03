@@ -30,9 +30,9 @@ public class AutoLoadAfterInit : MonoBehaviour
 
         // Load last saved game.
         var slots = (await stateManager.GameStateSlotManager.LoadAllSaveSlotsAsync()).Where(kv => kv.Value != null);
-        var recentSlot = slots.OrderByDescending(kv => kv.Value.SaveDateTime).First();
-        var recentQuickSlot = await stateManager.GameStateSlotManager.LoadAsync(stateManager.LastQuickSaveSlotId);
-        if (recentSlot.Value.SaveDateTime > recentQuickSlot.SaveDateTime)
+        var recentSlot = slots.OrderByDescending(kv => kv.Value.SaveDateTime).FirstOrDefault();
+        var recentQuickSlot = stateManager.QuickLoadAvailable ? await stateManager.GameStateSlotManager.LoadAsync(stateManager.LastQuickSaveSlotId) : null;
+        if (recentQuickSlot is null || (recentSlot.Value != null && recentSlot.Value.SaveDateTime > recentQuickSlot.SaveDateTime))
             await stateManager.LoadGameAsync(recentSlot.Key);
         else await stateManager.QuickLoadAsync();
         Engine.GetService<NovelScriptPlayer>().Play();
