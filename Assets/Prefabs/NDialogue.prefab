@@ -78,8 +78,7 @@ MonoBehaviour:
   isVisibleOnAwake: 0
   fadeTime: 0.3
   content: {fileID: 7466899038394840338}
-  continueInputTrigger: {fileID: 1855576381011046, guid: 08023b2d14525614bac40b6483185bf3,
-    type: 3}
+  continueInputTrigger: {fileID: 1560104929271160}
   actorNamePanel: {fileID: 8714098279749244858}
   actorAvatarImage: {fileID: 0}
   inputIndicatorPrefab: {fileID: 114522303404012452, guid: 08023b2d14525614bac40b6483185bf3,
@@ -924,6 +923,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 224045698108388582}
     m_Modifications:
+    - target: {fileID: 1606130285726930, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
+      propertyPath: m_Name
+      value: ControlPanel
+      objectReference: {fileID: 0}
     - target: {fileID: 224780725045092526, guid: f9ef02f710a46014a8a8584187c986f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1028,10 +1031,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606130285726930, guid: f9ef02f710a46014a8a8584187c986f4, type: 3}
-      propertyPath: m_Name
-      value: ControlPanel
       objectReference: {fileID: 0}
     - target: {fileID: 2526571257909254960, guid: f9ef02f710a46014a8a8584187c986f4,
         type: 3}

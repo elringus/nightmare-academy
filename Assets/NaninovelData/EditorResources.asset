@@ -18,3 +18,7 @@ MonoBehaviour:
     - Name: NDialogue
       PathPrefix: TextPrinters
       Guid: 3534ac74122d23d45b7e5797005c2977
+  - Id: Backgrounds/4b40873f-dff4-45b6-aed1-d22598c846d6
+    Resources: []
+  - Id: Audio
+    Resources: []
