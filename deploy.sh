@@ -5,6 +5,8 @@ set -e
 
 cd Website
 
+echo 'nightmareacademy.ru' > CNAME
+
 git init
 git add -A
 git commit -m 'deploy'
