@@ -18,3 +18,5 @@ MonoBehaviour:
     - Name: NDialogue
       PathPrefix: TextPrinters
       Guid: 3534ac74122d23d45b7e5797005c2977
+  - Id: Scripts
+    Resources: []
